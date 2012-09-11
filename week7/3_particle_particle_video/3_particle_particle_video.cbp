@@ -87,7 +87,6 @@
 			<Add directory="../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts" />
 			<Add directory="../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video" />
 			<Add directory="../../../addons/ofxOpenCv/libs/opencv/lib" />
-			<Add directory="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb" />
 			<Add directory="../../../addons/ofxOpenCv/src" />
 		</Compiler>
 		<Linker>
@@ -125,21 +124,6 @@
 			<Add library="ws2_32" />
 			<Add library="Iphlpapi" />
 			<Add library="Comdlg32" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_legacy231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_haartraining_engine.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_calib3d231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_features2d231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_objdetect231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_imgproc231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_video231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_highgui231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_ml231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_core231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_flann231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_contrib231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_gpu231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libopencv_ts231.a" />
-			<Add library="../../../addons/ofxOpenCv/libs/opencv/lib/win_cb/libzlib.a" />
 		</Linker>
 		<ExtraCommands>
 			<Add after="xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;" />

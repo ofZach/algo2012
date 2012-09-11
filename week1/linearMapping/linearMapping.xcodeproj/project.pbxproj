@@ -9,43 +9,6 @@
 		<string>42</string>
 		<key>objects</key>
 		<dict>
-			<key>23d13cee25b08d74f6be5ed553c71c8b</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rectangle.h</string>
-				<key>path</key>
-				<string>src/rectangle.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>c76df3c2c889714e040a2825705a0da8</key>
-			<dict>
-				<key>fileRef</key>
-				<string>1371a3870c52d45ea1fb1bebee192649</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>1371a3870c52d45ea1fb1bebee192649</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>rectangle.cpp</string>
-				<key>path</key>
-				<string>src/rectangle.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
@@ -559,7 +522,6 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>c76df3c2c889714e040a2825705a0da8</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -612,7 +574,7 @@
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>1_rectangleInterpolate</string>
+				<string>linearMapping</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -629,7 +591,7 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>1_rectangleInterpolateDebug.app</string>
+				<string>linearMappingDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
@@ -864,8 +826,6 @@
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
-					<string>1371a3870c52d45ea1fb1bebee192649</string>
-					<string>23d13cee25b08d74f6be5ed553c71c8b</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>

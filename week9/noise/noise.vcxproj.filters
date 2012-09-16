@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\testApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiBaseObject.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiCallback.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiCallbackValue.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiColor.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTextBase.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiType2DSlider.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeButtonSlider.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeChartPlotter.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeCustom.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeDrawable.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeFileLister.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeLabel.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeLogger.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeMultiToggle.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypePanel.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeSlider.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeText.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeTextDropDown.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeTextInput.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeToggle.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeVairableLister.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiTypeVideo.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\guiValue.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\ofxControlPanel.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\simpleColor.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\simpleFileLister.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxControlPanel\src\simpleLogger.cpp">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\particle.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\ofxControlPanel">
+			<UniqueIdentifier>{d9e4e509-c0d2-e29f-456d-5cff7d3b6dd0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\ofxControlPanel\src">
+			<UniqueIdentifier>{f2999a4f-ecd5-aa9f-7cd7-3f5dbb29b084}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\testApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\ofxAutoControlPanel.h">
+			<Filter>src\ofxControlPanel</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiBaseObject.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiCallback.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiCallbackValue.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiColor.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiCustomImpl.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiIncludes.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTextBase.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiType2DSlider.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeButtonSlider.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeChartPlotter.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeCustom.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeDrawable.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeFileLister.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeLabel.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeLogger.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeMultiToggle.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypePanel.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeSlider.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeText.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeTextDropDown.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeTextInput.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeToggle.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeVairableLister.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiTypeVideo.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiValue.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiVariablePointer.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\guiXmlValue.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\ofxControlPanel.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\simpleColor.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\simpleFileLister.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxControlPanel\src\simpleLogger.h">
+			<Filter>src\ofxControlPanel\src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\particle.h">
+			<Filter>src</Filter>
+		</ClInclude>
+	</ItemGroup>
+</Project>

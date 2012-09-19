@@ -41,7 +41,7 @@ void testApp::draw(){
         
         angle += PI/2;
         
-        float width = diff.length();
+        float width = 20; //diff.length();
         
         ofPoint offsetA;
         offsetA.x = ptb.x + width * cos(angle);
@@ -53,11 +53,11 @@ void testApp::draw(){
 
         ofLine(offsetA, offsetB);
         
-        ofColor col;
-        col.setHsb(ofMap(angle, -PI/2, 3*PI/2, 0,255, true), 100,255, ofMap(angle, -PI/2, 3*PI/2, 0,255, true));
-        mesh.addColor(col);
+        //ofColor col;
+        //col.setHsb(ofMap(angle, -PI/2, 3*PI/2, 0,255, true), 100,255, ofMap(angle, -PI/2, 3*PI/2, 0,255, true));
+        //mesh.addColor(col);
         mesh.addVertex(offsetA);
-        mesh.addColor(col);
+        //mesh.addColor(col);
 
         mesh.addVertex(offsetB);
         

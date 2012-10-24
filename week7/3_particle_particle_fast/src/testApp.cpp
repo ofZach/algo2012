@@ -21,29 +21,27 @@ void testApp::setup(){
 	
 	ofSetCircleResolution(6);
 	ofSetRectMode(OF_RECTMODE_CENTER);
+
+	ofBackground(0,0,0);
+	
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
 	
-	//cout << ofGetFrameRate() << endl;
 	
-	// sort all the particle
-	sort( myParticles.begin(), myParticles.end(), comparisonFunction );				  // sort them!
+	// sort all the particles:
+
+	sort( myParticles.begin(), myParticles.end(), comparisonFunction );		
 	
-	
-	
-	ofBackground(0,0,0); //Grey background, NY style
 	
 	for (int i = 0; i < myParticles.size(); i++){
 		myParticles[i]->resetForce();
 	}
 	
-	
 	for (int i = 0; i < myParticles.size(); i++){
 		for (int j = i-1; j >= 0; j--){
-			if ( fabs(myParticles[j]->pos.x - myParticles[i]->pos.x) >	10) break;
-			
+			if ( fabs(myParticles[j]->pos.x - myParticles[i]->pos.x) >	10) break;	
 			myParticles[i]->addRepulsionForce( *myParticles[j],10,1.1f);
 		}
 	}

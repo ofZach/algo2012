@@ -65,7 +65,7 @@ void testApp::draw(){
 	
 	for (int i = 0; i < myParticles.size(); i++){
 		 myParticles[i]->draw();
-	 }
+	}
 
 }
 

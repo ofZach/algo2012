@@ -6,9 +6,69 @@
 		<key>classes</key>
 		<dict />
 		<key>objectVersion</key>
-		<string>42</string>
+		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>6474CBF019BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>AVFoundation.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/AVFoundation.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF119BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>CoreMedia.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/CoreMedia.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF219BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>QuartzCore.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/QuartzCore.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF619BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF019BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6474CBF719BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF119BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6474CBF819BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF219BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
@@ -37,18 +97,23 @@
 			<dict>
 				<key>children</key>
 				<array>
+					<string>6474CBF019BCE00B003C94E2</string>
+					<string>6474CBF119BCE00B003C94E2</string>
+					<string>6474CBF219BCE00B003C94E2</string>
+					<string>E7F985F515E0DE99003869B5</string>
 					<string>E4C2424410CC5A17004149E2</string>
 					<string>E4C2424510CC5A17004149E2</string>
 					<string>E4C2424610CC5A17004149E2</string>
 					<string>E45BE9710E8CC7DD009D7055</string>
 					<string>E45BE9720E8CC7DD009D7055</string>
 					<string>E45BE9730E8CC7DD009D7055</string>
-					<string>E45BE9740E8CC7DD009D7055</string>
 					<string>E45BE9750E8CC7DD009D7055</string>
 					<string>E45BE9760E8CC7DD009D7055</string>
 					<string>E45BE9770E8CC7DD009D7055</string>
 					<string>E45BE9790E8CC7DD009D7055</string>
 					<string>E45BE97A0E8CC7DD009D7055</string>
+					<string>E7E077E415D3B63C0020DFD4</string>
+					<string>E7E077E715D3B6510020DFD4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -123,7 +188,7 @@
 				<key>isa</key>
 				<string>PBXReferenceProxy</string>
 				<key>path</key>
-				<string>openFrameworks.a</string>
+				<string>openFrameworksDebug.a</string>
 				<key>remoteRef</key>
 				<string>E4328147138ABC890047C5CB</string>
 				<key>sourceTree</key>
@@ -186,19 +251,6 @@
 				<string>AudioToolbox.framework</string>
 				<key>path</key>
 				<string>/System/Library/Frameworks/AudioToolbox.framework</string>
-				<key>sourceTree</key>
-				<string>&lt;absolute&gt;</string>
-			</dict>
-			<key>E45BE9740E8CC7DD009D7055</key>
-			<dict>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>wrapper.framework</string>
-				<key>name</key>
-				<string>Carbon.framework</string>
-				<key>path</key>
-				<string>/System/Library/Frameworks/Carbon.framework</string>
 				<key>sourceTree</key>
 				<string>&lt;absolute&gt;</string>
 			</dict>
@@ -288,13 +340,6 @@
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>E45BE97E0E8CC7DD009D7055</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E45BE9740E8CC7DD009D7055</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
 			<key>E45BE97F0E8CC7DD009D7055</key>
 			<dict>
 				<key>fileRef</key>
@@ -349,10 +394,15 @@
 			</dict>
 			<key>E4B69B4C0A3A1720003C02F2</key>
 			<dict>
+				<key>attributes</key>
+				<dict>
+					<key>LastUpgradeCheck</key>
+					<string>0460</string>
+				</dict>
 				<key>buildConfigurationList</key>
 				<string>E4B69B4D0A3A1720003C02F2</string>
 				<key>compatibilityVersion</key>
-				<string>Xcode 2.4</string>
+				<string>Xcode 3.2</string>
 				<key>developmentRegion</key>
 				<string>English</string>
 				<key>hasScannedForEncodings</key>
@@ -411,6 +461,8 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>../../../addons/libs</string>
+						<string>../../../addons/src</string>
 						<string>src</string>
 					</array>
 					<key>ARCHS</key>
@@ -434,7 +486,7 @@
 					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
 					<string>NO</string>
 					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>NO</string>
+					<string>YES</string>
 					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
 					<string>NO</string>
 					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
@@ -445,12 +497,16 @@
 					<string>NO</string>
 					<key>GCC_WARN_UNUSED_VARIABLE</key>
 					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.6</string>
 					<key>OTHER_CPLUSPLUSFLAGS</key>
 					<array>
 						<string>-D__MACOSX_CORE__</string>
 						<string>-lpthread</string>
 						<string>-mtune=native</string>
 					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
 				</dict>
 				<key>isa</key>
 				<string>XCBuildConfiguration</string>
@@ -466,6 +522,8 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>../../../addons/libs</string>
+						<string>../../../addons/src</string>
 						<string>src</string>
 					</array>
 					<key>ARCHS</key>
@@ -491,7 +549,7 @@
 					<key>GCC_UNROLL_LOOPS</key>
 					<string>YES</string>
 					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>NO</string>
+					<string>YES</string>
 					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
 					<string>NO</string>
 					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
@@ -502,12 +560,16 @@
 					<string>NO</string>
 					<key>GCC_WARN_UNUSED_VARIABLE</key>
 					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.6</string>
 					<key>OTHER_CPLUSPLUSFLAGS</key>
 					<array>
 						<string>-D__MACOSX_CORE__</string>
 						<string>-lpthread</string>
 						<string>-mtune=native</string>
 					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
 				</dict>
 				<key>isa</key>
 				<string>XCBuildConfiguration</string>
@@ -534,12 +596,16 @@
 				<string>2147483647</string>
 				<key>files</key>
 				<array>
+					<string>6474CBF619BCE019003C94E2</string>
+					<string>6474CBF719BCE019003C94E2</string>
+					<string>6474CBF819BCE019003C94E2</string>
+					<string>E7F985F815E0DEA3003869B5</string>
+					<string>E7E077E815D3B6510020DFD4</string>
 					<string>E4EB6799138ADC1D00A09F29</string>
 					<string>E4328149138ABC9F0047C5CB</string>
 					<string>E45BE97B0E8CC7DD009D7055</string>
 					<string>E45BE97C0E8CC7DD009D7055</string>
 					<string>E45BE97D0E8CC7DD009D7055</string>
-					<string>E45BE97E0E8CC7DD009D7055</string>
 					<string>E45BE97F0E8CC7DD009D7055</string>
 					<string>E45BE9800E8CC7DD009D7055</string>
 					<string>E45BE9810E8CC7DD009D7055</string>
@@ -548,6 +614,7 @@
 					<string>E4C2424710CC5A17004149E2</string>
 					<string>E4C2424810CC5A17004149E2</string>
 					<string>E4C2424910CC5A17004149E2</string>
+					<string>E7E077E515D3B63C0020DFD4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXFrameworksBuildPhase</string>
@@ -613,6 +680,8 @@
 			<dict>
 				<key>buildSettings</key>
 				<dict>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
 					<string>NO</string>
 					<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -624,87 +693,20 @@
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
 					<key>GCC_DYNAMIC_NO_PIC</key>
 					<string>NO</string>
-					<key>GCC_ENABLE_FIX_AND_CONTINUE</key>
-					<string>YES</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
 					<key>GCC_MODEL_TUNING</key>
 					<string>NONE</string>
-					<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-					<string>YES</string>
-					<key>GCC_PREFIX_HEADER</key>
-					<string>$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_DEBUG)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
 					<key>INFOPLIST_FILE</key>
 					<string>openFrameworks-Info.plist</string>
 					<key>INSTALL_PATH</key>
 					<string>$(HOME)/Applications</string>
 					<key>LIBRARY_SEARCH_PATHS</key>
-					<array>
-						<string>$(inherited)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)</string>
-					</array>
-					<key>PREBINDING</key>
-					<string>NO</string>
+					<string>$(inherited)</string>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)Debug</string>
 					<key>WRAPPER_EXTENSION</key>
@@ -719,6 +721,8 @@
 			<dict>
 				<key>buildSettings</key>
 				<dict>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
 					<string>YES</string>
 					<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -728,87 +732,20 @@
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
-					<key>GCC_ENABLE_FIX_AND_CONTINUE</key>
-					<string>NO</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
 					<key>GCC_MODEL_TUNING</key>
 					<string>NONE</string>
-					<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-					<string>YES</string>
-					<key>GCC_PREFIX_HEADER</key>
-					<string>$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
 					<key>INFOPLIST_FILE</key>
 					<string>openFrameworks-Info.plist</string>
 					<key>INSTALL_PATH</key>
 					<string>$(HOME)/Applications</string>
 					<key>LIBRARY_SEARCH_PATHS</key>
-					<array>
-						<string>$(inherited)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)</string>
-					</array>
-					<key>PREBINDING</key>
-					<string>NO</string>
+					<string>$(inherited)</string>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
 					<key>WRAPPER_EXTENSION</key>
@@ -858,9 +795,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>testApp.cpp</string>
+				<string>ofApp.cpp</string>
 				<key>path</key>
-				<string>src/testApp.cpp</string>
+				<string>src/ofApp.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -873,9 +810,9 @@
 				<key>lastKnownFileType</key>
 				<string>sourcecode.c.h</string>
 				<key>name</key>
-				<string>testApp.h</string>
+				<string>ofApp.h</string>
 				<key>path</key>
-				<string>src/testApp.h</string>
+				<string>src/ofApp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -923,7 +860,10 @@
 				<key>shellPath</key>
 				<string>/bin/sh</string>
 				<key>shellScript</key>
-				<string>cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";</string>
+				<string>cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+cp -f "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+</string>
 			</dict>
 			<key>E4C2424410CC5A17004149E2</key>
 			<dict>
@@ -1072,6 +1012,66 @@
 				<string>openFrameworks</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E7E077E415D3B63C0020DFD4</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>CoreVideo.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/CoreVideo.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7E077E515D3B63C0020DFD4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7E077E415D3B63C0020DFD4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E7E077E715D3B6510020DFD4</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>QTKit.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/QTKit.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7E077E815D3B6510020DFD4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7E077E715D3B6510020DFD4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E7F985F515E0DE99003869B5</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>Accelerate.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/Accelerate.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7F985F815E0DEA3003869B5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7F985F515E0DE99003869B5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
 			</dict>
 		</dict>
 		<key>rootObject</key>

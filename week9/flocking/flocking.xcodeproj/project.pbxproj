@@ -6,172 +6,10 @@
 		<key>classes</key>
 		<dict />
 		<key>objectVersion</key>
-		<string>42</string>
+		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>5a4349e9754d6fa14c0f2a3a1abc30b6</key>
-			<dict>
-				<key>fileRef</key>
-				<string>fc5da1c87211d4f6377da7199d8c5a1e</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>fc5da1c87211d4f6377da7199d8c5a1e</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>tinyxmlparser.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>9d44dc88ef9e7991b4a09951e2e4769f</key>
-			<dict>
-				<key>fileRef</key>
-				<string>832bdc407620cdba568b713d2252c43c</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>832bdc407620cdba568b713d2252c43c</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>tinyxmlerror.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>b21e7e5f548eea92f368040bb1aa2f69</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>tinyxml.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/libs/tinyxml.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6e54289412d2d94f45a051132369530c</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>2b40eda85beb63e46785bc299a638898</string>
-					<string>b21e7e5f548eea92f368040bb1aa2f69</string>
-					<string>832bdc407620cdba568b713d2252c43c</string>
-					<string>fc5da1c87211d4f6377da7199d8c5a1e</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>libs</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>933a2227713c720ceff80fd967d0a8ee</key>
-			<dict>
-				<key>fileRef</key>
-				<string>2b40eda85beb63e46785bc299a638898</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>2b40eda85beb63e46785bc299a638898</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>tinyxml.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/libs/tinyxml.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>01dcc0911400f9acf5b65578af4ec8f9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxXmlSettings.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6ecef0d76bc33727823eadffc320c44d</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>50df87d612c5aae17aafa6c02c6bc570</string>
-					<string>01dcc0911400f9acf5b65578af4ec8f9</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>1f4fb5c423662b96adfdcc0badec1cb0</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>6ecef0d76bc33727823eadffc320c44d</string>
-					<string>6e54289412d2d94f45a051132369530c</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxXmlSettings</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>63b57ac5bf4ef088491e0317dbb2ecaa</key>
-			<dict>
-				<key>fileRef</key>
-				<string>50df87d612c5aae17aafa6c02c6bc570</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>50df87d612c5aae17aafa6c02c6bc570</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxXmlSettings.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>c4290e0aa046ab2952a4f50603f7233e</key>
+			<key>C4290E0AA046AB2952A4F506</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -186,14 +24,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>72c9c04e23596576dc20d815f239e68d</key>
+			<key>72C9C04E23596576DC20D815</key>
 			<dict>
 				<key>fileRef</key>
-				<string>09150bf591fddf0eca6d1d302b43ae78</string>
+				<string>09150BF591FDDF0ECA6D1D30</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>09150bf591fddf0eca6d1d302b43ae78</key>
+			<key>09150BF591FDDF0ECA6D1D30</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -208,7 +46,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ee986754432e040b80c99f4dbc9bcddb</key>
+			<key>EE986754432E040B80C99F4D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -223,14 +61,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2b21574b1d08f16229459f08df768cb6</key>
+			<key>2B21574B1D08F16229459F08</key>
 			<dict>
 				<key>fileRef</key>
-				<string>45c35527a6bfc12f9414c498602c2f98</string>
+				<string>45C35527A6BFC12F9414C498</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>45c35527a6bfc12f9414c498602c2f98</key>
+			<key>45C35527A6BFC12F9414C498</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -245,7 +83,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ee548cd2ddf2b7f6defb378f9af4bd6a</key>
+			<key>EE548CD2DDF2B7F6DEFB378F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -260,14 +98,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>af9eed97e5787d318b5c5fc91f20fdee</key>
+			<key>AF9EED97E5787D318B5C5FC9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>d170deb278727b0f538fb8074a9115ce</string>
+				<string>D170DEB278727B0F538FB807</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>d170deb278727b0f538fb8074a9115ce</key>
+			<key>D170DEB278727B0F538FB807</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -282,7 +120,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>e341fa30b720f0a95335cb41ed758a74</key>
+			<key>E341FA30B720F0A95335CB41</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -297,14 +135,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ecf32d4c2482dcecec323401d8a07249</key>
+			<key>ECF32D4C2482DCECEC323401</key>
 			<dict>
 				<key>fileRef</key>
-				<string>f8ba871cc5ecf5c95d891b6397116784</string>
+				<string>F8BA871CC5ECF5C95D891B63</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>f8ba871cc5ecf5c95d891b6397116784</key>
+			<key>F8BA871CC5ECF5C95D891B63</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -319,7 +157,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3b7942a649e6169c9afd886532b95d75</key>
+			<key>3B7942A649E6169C9AFD8865</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -334,14 +172,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4db1e0e9777d54af9a5c730c164d248d</key>
+			<key>4DB1E0E9777D54AF9A5C730C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>dbaf8334a7346565465b324a07d99ab6</string>
+				<string>DBAF8334A7346565465B324A</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>dbaf8334a7346565465b324a07d99ab6</key>
+			<key>DBAF8334A7346565465B324A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -356,7 +194,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>191b7643f50f4e35b835ffaa95253acd</key>
+			<key>191B7643F50F4E35B835FFAA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -371,7 +209,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>df3b668ffbaaee360013e5812783af2e</key>
+			<key>DF3B668FFBAAEE360013E581</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -386,7 +224,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>f24d4e4956d5c309640bf652286a3e03</key>
+			<key>F24D4E4956D5C309640BF652</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -401,14 +239,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>9184b44a8bb766700e50e1f58425b448</key>
+			<key>9184B44A8BB766700E50E1F5</key>
 			<dict>
 				<key>fileRef</key>
-				<string>d0cdf78d2fbc06834766795e9d58c3e5</string>
+				<string>D0CDF78D2FBC06834766795E</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>d0cdf78d2fbc06834766795e9d58c3e5</key>
+			<key>D0CDF78D2FBC06834766795E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -423,7 +261,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>390a886434ea52cc82c5304a8efa6330</key>
+			<key>390A886434EA52CC82C5304A</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -438,14 +276,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>fd0fae2d501eadf18a167574f33808e5</key>
+			<key>FD0FAE2D501EADF18A167574</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3641f993e6902e1fbbb67755783e6591</string>
+				<string>3641F993E6902E1FBBB67755</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3641f993e6902e1fbbb67755783e6591</key>
+			<key>3641F993E6902E1FBBB67755</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -460,7 +298,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>70a1e2317ad2eda4f2d40fa08f8d5c14</key>
+			<key>70A1E2317AD2EDA4F2D40FA0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -475,14 +313,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>de1502c2240bba214d4f95d330292739</key>
+			<key>DE1502C2240BBA214D4F95D3</key>
 			<dict>
 				<key>fileRef</key>
-				<string>506cb1ac56f228ef96c2263083661da8</string>
+				<string>506CB1AC56F228EF96C22630</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>506cb1ac56f228ef96c2263083661da8</key>
+			<key>506CB1AC56F228EF96C22630</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -497,7 +335,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>ca4ebf5bb74cabead5dbfc54f72e9df7</key>
+			<key>CA4EBF5BB74CABEAD5DBFC54</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -512,14 +350,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>48c4cc14f41c5011881cf4c9f383fa2f</key>
+			<key>48C4CC14F41C5011881CF4C9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>d23b06cd69a9a8a33f30aff9936d1a9e</string>
+				<string>D23B06CD69A9A8A33F30AFF9</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>d23b06cd69a9a8a33f30aff9936d1a9e</key>
+			<key>D23B06CD69A9A8A33F30AFF9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -534,7 +372,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>09ad3a067ccb2fbb3d58a0ea485d06bf</key>
+			<key>09AD3A067CCB2FBB3D58A0EA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -549,14 +387,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>dcb9250d6b51cd3062ab9c5ad2efab11</key>
+			<key>DCB9250D6B51CD3062AB9C5A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>f407459af9a03d19ed0ef1f11c3f3d37</string>
+				<string>F407459AF9A03D19ED0EF1F1</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>f407459af9a03d19ed0ef1f11c3f3d37</key>
+			<key>F407459AF9A03D19ED0EF1F1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -571,7 +409,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>678df4abade8d9c8352463db0ccc5774</key>
+			<key>678DF4ABADE8D9C8352463DB</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -586,14 +424,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>855211085fa3a30a3b246698853e8bed</key>
+			<key>855211085FA3A30A3B246698</key>
 			<dict>
 				<key>fileRef</key>
-				<string>cd02aaa473f9ac139edd43be91dfa68b</string>
+				<string>CD02AAA473F9AC139EDD43BE</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>cd02aaa473f9ac139edd43be91dfa68b</key>
+			<key>CD02AAA473F9AC139EDD43BE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -608,7 +446,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>02e924bb5d84723c6494231e228bc999</key>
+			<key>02E924BB5D84723C6494231E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -623,14 +461,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>b791d0cb11613ccb610a683da019435b</key>
+			<key>B791D0CB11613CCB610A683D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>eaa17c174c209caa64d339352d80a4f2</string>
+				<string>EAA17C174C209CAA64D33935</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>eaa17c174c209caa64d339352d80a4f2</key>
+			<key>EAA17C174C209CAA64D33935</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -645,7 +483,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3e0936771537b38b1db72fa48b5c224d</key>
+			<key>3E0936771537B38B1DB72FA4</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -660,14 +498,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>c0c58edf9bb79c5deeb2a42a45b05fff</key>
+			<key>C0C58EDF9BB79C5DEEB2A42A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>9ed1f5c2fba890c596f543287b11007f</string>
+				<string>9ED1F5C2FBA890C596F54328</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>9ed1f5c2fba890c596f543287b11007f</key>
+			<key>9ED1F5C2FBA890C596F54328</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -682,7 +520,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>11ca502443f9fd77eef92faa87e503d4</key>
+			<key>11CA502443F9FD77EEF92FAA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -697,14 +535,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>880714df8e5b06ba88b98c49074027af</key>
+			<key>880714DF8E5B06BA88B98C49</key>
 			<dict>
 				<key>fileRef</key>
-				<string>1989a13c067c5d6d12ce68d5b4f6f8cb</string>
+				<string>1989A13C067C5D6D12CE68D5</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>1989a13c067c5d6d12ce68d5b4f6f8cb</key>
+			<key>1989A13C067C5D6D12CE68D5</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -719,7 +557,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1c800e7d2478cdc0b86b86ad67dacb18</key>
+			<key>1C800E7D2478CDC0B86B86AD</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -734,14 +572,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>adcad89d19af644de4b980dd5ae66b07</key>
+			<key>ADCAD89D19AF644DE4B980DD</key>
 			<dict>
 				<key>fileRef</key>
-				<string>5a62f6329268b6c002d0b5a37f7a0ca3</string>
+				<string>5A62F6329268B6C002D0B5A3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>5a62f6329268b6c002d0b5a37f7a0ca3</key>
+			<key>5A62F6329268B6C002D0B5A3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -756,7 +594,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>fe590ccc2ca196b385b2be44add308cb</key>
+			<key>FE590CCC2CA196B385B2BE44</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -771,14 +609,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>d8c42ab95a0fa3c44fc6b4765087223f</key>
+			<key>D8C42AB95A0FA3C44FC6B476</key>
 			<dict>
 				<key>fileRef</key>
-				<string>c63af39e1cb32d27afe6cfab00df8ed6</string>
+				<string>C63AF39E1CB32D27AFE6CFAB</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>c63af39e1cb32d27afe6cfab00df8ed6</key>
+			<key>C63AF39E1CB32D27AFE6CFAB</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -793,7 +631,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6ed1108bfcac129bcce62a1430067483</key>
+			<key>6ED1108BFCAC129BCCE62A14</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -808,14 +646,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>b1d83fd9410a8c4b53e41fa04fb1912a</key>
+			<key>B1D83FD9410A8C4B53E41FA0</key>
 			<dict>
 				<key>fileRef</key>
-				<string>149016b1a89a34f9d2461c49af7654a5</string>
+				<string>149016B1A89A34F9D2461C49</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>149016b1a89a34f9d2461c49af7654a5</key>
+			<key>149016B1A89A34F9D2461C49</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -830,7 +668,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>b42c5723e61eacbcbc7fc726295c239e</key>
+			<key>B42C5723E61EACBCBC7FC726</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -845,14 +683,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>b4679340c8d9897c694ba5a56112b287</key>
+			<key>B4679340C8D9897C694BA5A5</key>
 			<dict>
 				<key>fileRef</key>
-				<string>c40533d2133b5f12824b3ef742811c38</string>
+				<string>C40533D2133B5F12824B3EF7</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>c40533d2133b5f12824b3ef742811c38</key>
+			<key>C40533D2133B5F12824B3EF7</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -867,7 +705,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4f21538397b239430ab94917fa7e4679</key>
+			<key>4F21538397B239430AB94917</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -882,14 +720,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>db63be57e70db9197b5d4b2fe2542ec1</key>
+			<key>DB63BE57E70DB9197B5D4B2F</key>
 			<dict>
 				<key>fileRef</key>
-				<string>097568880bc7d828549a109d32b5786b</string>
+				<string>097568880BC7D828549A109D</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>097568880bc7d828549a109d32b5786b</key>
+			<key>097568880BC7D828549A109D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -904,7 +742,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>2758020c04cc35f2fd1d28eed4fd98eb</key>
+			<key>2758020C04CC35F2FD1D28EE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -919,14 +757,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>f30303a05c23473489e16e88a327f0bc</key>
+			<key>F30303A05C23473489E16E88</key>
 			<dict>
 				<key>fileRef</key>
-				<string>e7f8fbadd144b9a25be47b0f5b5932fb</string>
+				<string>E7F8FBADD144B9A25BE47B0F</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>e7f8fbadd144b9a25be47b0f5b5932fb</key>
+			<key>E7F8FBADD144B9A25BE47B0F</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -941,7 +779,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1ed6ad99fd92fb0800c056d3675a988e</key>
+			<key>1ED6AD99FD92FB0800C056D3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -956,14 +794,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3fc457e7dbc6f803e836f84ce3732012</key>
+			<key>3FC457E7DBC6F803E836F84C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>9ec2166ddf5a4b37248379da5791c6b8</string>
+				<string>9EC2166DDF5A4B37248379DA</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>9ec2166ddf5a4b37248379da5791c6b8</key>
+			<key>9EC2166DDF5A4B37248379DA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -978,7 +816,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3f62fab9cbdc4e3a8fe5f9cdfe5136b0</key>
+			<key>3F62FAB9CBDC4E3A8FE5F9CD</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -993,14 +831,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8f3de660bb3f8da1013bebe9f60a00f8</key>
+			<key>8F3DE660BB3F8DA1013BEBE9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>65c612c51c0a661f4fb6648c901b15c4</string>
+				<string>65C612C51C0A661F4FB6648C</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>65c612c51c0a661f4fb6648c901b15c4</key>
+			<key>65C612C51C0A661F4FB6648C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1015,7 +853,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5d0315f84a2357d7b8a8f3121c0cd871</key>
+			<key>5D0315F84A2357D7B8A8F312</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1030,14 +868,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>c58dd68752d2f96fdbb0d32727c0af40</key>
+			<key>C58DD68752D2F96FDBB0D327</key>
 			<dict>
 				<key>fileRef</key>
-				<string>e273ebd7fb776b4300033078f962e2db</string>
+				<string>E273EBD7FB776B4300033078</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>e273ebd7fb776b4300033078f962e2db</key>
+			<key>E273EBD7FB776B4300033078</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1052,7 +890,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>97334ec181912cb7c4cd0e98fb02fe27</key>
+			<key>97334EC181912CB7C4CD0E98</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1067,14 +905,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>77cdac4e72641a926f66cf2352a4d28b</key>
+			<key>77CDAC4E72641A926F66CF23</key>
 			<dict>
 				<key>fileRef</key>
-				<string>84f3a6d034c336596c209486a18be99d</string>
+				<string>84F3A6D034C336596C209486</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>84f3a6d034c336596c209486a18be99d</key>
+			<key>84F3A6D034C336596C209486</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1089,7 +927,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8dba4f1fab12379dffd9d5604f7aca1f</key>
+			<key>8DBA4F1FAB12379DFFD9D560</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1104,7 +942,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7507f56545723a550972a5073f9cbffe</key>
+			<key>7507F56545723A550972A507</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1119,7 +957,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>1c413c4807986812e90af12753f3a89a</key>
+			<key>1C413C4807986812E90AF127</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1134,14 +972,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>d5a6d19315822ce081324047e45afab1</key>
+			<key>D5A6D19315822CE081324047</key>
 			<dict>
 				<key>fileRef</key>
-				<string>b87503ec7114d587c4b6d0f8d99026a3</string>
+				<string>B87503EC7114D587C4B6D0F8</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>b87503ec7114d587c4b6d0f8d99026a3</key>
+			<key>B87503EC7114D587C4B6D0F8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1156,7 +994,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7cb8fd7d9e641df0e3cd6fcac90bb59c</key>
+			<key>7CB8FD7D9E641DF0E3CD6FCA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1171,14 +1009,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>32228dcf2887e54f5518a192f902841c</key>
+			<key>32228DCF2887E54F5518A192</key>
 			<dict>
 				<key>fileRef</key>
-				<string>291819969207c5a1d55818f3694bfe94</string>
+				<string>291819969207C5A1D55818F3</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>291819969207c5a1d55818f3694bfe94</key>
+			<key>291819969207C5A1D55818F3</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1193,7 +1031,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>e5a0943f9ee3562b755b952de9d37b5d</key>
+			<key>E5A0943F9EE3562B755B952D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1208,14 +1046,14 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>a42f28a57e1988b667f2c5c760aceefb</key>
+			<key>A42F28A57E1988B667F2C5C7</key>
 			<dict>
 				<key>fileRef</key>
-				<string>f13fcfc0acd6759dfdc0db3439f1e1c1</string>
+				<string>F13FCFC0ACD6759DFDC0DB34</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>f13fcfc0acd6759dfdc0db3439f1e1c1</key>
+			<key>F13FCFC0ACD6759DFDC0DB34</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1230,7 +1068,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>3404c6f397ed50fa25128632681b8574</key>
+			<key>3404C6F397ED50FA25128632</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1245,68 +1083,68 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>db979faa0d5e283ab5d1f45dd94587c1</key>
+			<key>DB979FAA0D5E283AB5D1F45D</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>3d0b6dbf17d58acc63e46173855e400e</string>
-					<string>3404c6f397ed50fa25128632681b8574</string>
-					<string>f13fcfc0acd6759dfdc0db3439f1e1c1</string>
-					<string>e5a0943f9ee3562b755b952de9d37b5d</string>
-					<string>291819969207c5a1d55818f3694bfe94</string>
-					<string>7cb8fd7d9e641df0e3cd6fcac90bb59c</string>
-					<string>b87503ec7114d587c4b6d0f8d99026a3</string>
-					<string>1c413c4807986812e90af12753f3a89a</string>
-					<string>7507f56545723a550972a5073f9cbffe</string>
-					<string>8dba4f1fab12379dffd9d5604f7aca1f</string>
-					<string>84f3a6d034c336596c209486a18be99d</string>
-					<string>97334ec181912cb7c4cd0e98fb02fe27</string>
-					<string>e273ebd7fb776b4300033078f962e2db</string>
-					<string>5d0315f84a2357d7b8a8f3121c0cd871</string>
-					<string>65c612c51c0a661f4fb6648c901b15c4</string>
-					<string>3f62fab9cbdc4e3a8fe5f9cdfe5136b0</string>
-					<string>9ec2166ddf5a4b37248379da5791c6b8</string>
-					<string>1ed6ad99fd92fb0800c056d3675a988e</string>
-					<string>e7f8fbadd144b9a25be47b0f5b5932fb</string>
-					<string>2758020c04cc35f2fd1d28eed4fd98eb</string>
-					<string>097568880bc7d828549a109d32b5786b</string>
-					<string>4f21538397b239430ab94917fa7e4679</string>
-					<string>c40533d2133b5f12824b3ef742811c38</string>
-					<string>b42c5723e61eacbcbc7fc726295c239e</string>
-					<string>149016b1a89a34f9d2461c49af7654a5</string>
-					<string>6ed1108bfcac129bcce62a1430067483</string>
-					<string>c63af39e1cb32d27afe6cfab00df8ed6</string>
-					<string>fe590ccc2ca196b385b2be44add308cb</string>
-					<string>5a62f6329268b6c002d0b5a37f7a0ca3</string>
-					<string>1c800e7d2478cdc0b86b86ad67dacb18</string>
-					<string>1989a13c067c5d6d12ce68d5b4f6f8cb</string>
-					<string>11ca502443f9fd77eef92faa87e503d4</string>
-					<string>9ed1f5c2fba890c596f543287b11007f</string>
-					<string>3e0936771537b38b1db72fa48b5c224d</string>
-					<string>eaa17c174c209caa64d339352d80a4f2</string>
-					<string>02e924bb5d84723c6494231e228bc999</string>
-					<string>cd02aaa473f9ac139edd43be91dfa68b</string>
-					<string>678df4abade8d9c8352463db0ccc5774</string>
-					<string>f407459af9a03d19ed0ef1f11c3f3d37</string>
-					<string>09ad3a067ccb2fbb3d58a0ea485d06bf</string>
-					<string>d23b06cd69a9a8a33f30aff9936d1a9e</string>
-					<string>ca4ebf5bb74cabead5dbfc54f72e9df7</string>
-					<string>506cb1ac56f228ef96c2263083661da8</string>
-					<string>70a1e2317ad2eda4f2d40fa08f8d5c14</string>
-					<string>3641f993e6902e1fbbb67755783e6591</string>
-					<string>390a886434ea52cc82c5304a8efa6330</string>
-					<string>d0cdf78d2fbc06834766795e9d58c3e5</string>
-					<string>f24d4e4956d5c309640bf652286a3e03</string>
-					<string>df3b668ffbaaee360013e5812783af2e</string>
-					<string>191b7643f50f4e35b835ffaa95253acd</string>
-					<string>dbaf8334a7346565465b324a07d99ab6</string>
-					<string>3b7942a649e6169c9afd886532b95d75</string>
-					<string>f8ba871cc5ecf5c95d891b6397116784</string>
-					<string>e341fa30b720f0a95335cb41ed758a74</string>
-					<string>d170deb278727b0f538fb8074a9115ce</string>
-					<string>ee548cd2ddf2b7f6defb378f9af4bd6a</string>
-					<string>45c35527a6bfc12f9414c498602c2f98</string>
-					<string>ee986754432e040b80c99f4dbc9bcddb</string>
+					<string>3D0B6DBF17D58ACC63E46173</string>
+					<string>3404C6F397ED50FA25128632</string>
+					<string>F13FCFC0ACD6759DFDC0DB34</string>
+					<string>E5A0943F9EE3562B755B952D</string>
+					<string>291819969207C5A1D55818F3</string>
+					<string>7CB8FD7D9E641DF0E3CD6FCA</string>
+					<string>B87503EC7114D587C4B6D0F8</string>
+					<string>1C413C4807986812E90AF127</string>
+					<string>7507F56545723A550972A507</string>
+					<string>8DBA4F1FAB12379DFFD9D560</string>
+					<string>84F3A6D034C336596C209486</string>
+					<string>97334EC181912CB7C4CD0E98</string>
+					<string>E273EBD7FB776B4300033078</string>
+					<string>5D0315F84A2357D7B8A8F312</string>
+					<string>65C612C51C0A661F4FB6648C</string>
+					<string>3F62FAB9CBDC4E3A8FE5F9CD</string>
+					<string>9EC2166DDF5A4B37248379DA</string>
+					<string>1ED6AD99FD92FB0800C056D3</string>
+					<string>E7F8FBADD144B9A25BE47B0F</string>
+					<string>2758020C04CC35F2FD1D28EE</string>
+					<string>097568880BC7D828549A109D</string>
+					<string>4F21538397B239430AB94917</string>
+					<string>C40533D2133B5F12824B3EF7</string>
+					<string>B42C5723E61EACBCBC7FC726</string>
+					<string>149016B1A89A34F9D2461C49</string>
+					<string>6ED1108BFCAC129BCCE62A14</string>
+					<string>C63AF39E1CB32D27AFE6CFAB</string>
+					<string>FE590CCC2CA196B385B2BE44</string>
+					<string>5A62F6329268B6C002D0B5A3</string>
+					<string>1C800E7D2478CDC0B86B86AD</string>
+					<string>1989A13C067C5D6D12CE68D5</string>
+					<string>11CA502443F9FD77EEF92FAA</string>
+					<string>9ED1F5C2FBA890C596F54328</string>
+					<string>3E0936771537B38B1DB72FA4</string>
+					<string>EAA17C174C209CAA64D33935</string>
+					<string>02E924BB5D84723C6494231E</string>
+					<string>CD02AAA473F9AC139EDD43BE</string>
+					<string>678DF4ABADE8D9C8352463DB</string>
+					<string>F407459AF9A03D19ED0EF1F1</string>
+					<string>09AD3A067CCB2FBB3D58A0EA</string>
+					<string>D23B06CD69A9A8A33F30AFF9</string>
+					<string>CA4EBF5BB74CABEAD5DBFC54</string>
+					<string>506CB1AC56F228EF96C22630</string>
+					<string>70A1E2317AD2EDA4F2D40FA0</string>
+					<string>3641F993E6902E1FBBB67755</string>
+					<string>390A886434EA52CC82C5304A</string>
+					<string>D0CDF78D2FBC06834766795E</string>
+					<string>F24D4E4956D5C309640BF652</string>
+					<string>DF3B668FFBAAEE360013E581</string>
+					<string>191B7643F50F4E35B835FFAA</string>
+					<string>DBAF8334A7346565465B324A</string>
+					<string>3B7942A649E6169C9AFD8865</string>
+					<string>F8BA871CC5ECF5C95D891B63</string>
+					<string>E341FA30B720F0A95335CB41</string>
+					<string>D170DEB278727B0F538FB807</string>
+					<string>EE548CD2DDF2B7F6DEFB378F</string>
+					<string>45C35527A6BFC12F9414C498</string>
+					<string>EE986754432E040B80C99F4D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1315,14 +1153,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>305f6ca0d586511d1a4b74aac51e841d</key>
+			<key>305F6CA0D586511D1A4B74AA</key>
 			<dict>
 				<key>fileRef</key>
-				<string>3d0b6dbf17d58acc63e46173855e400e</string>
+				<string>3D0B6DBF17D58ACC63E46173</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>3d0b6dbf17d58acc63e46173855e400e</key>
+			<key>3D0B6DBF17D58ACC63E46173</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -1337,12 +1175,12 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>70b88c4aafdbd04fda1119bbe104034d</key>
+			<key>70B88C4AAFDBD04FDA1119BB</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>ba2a4d27866123cfd1467703dcc4e63a</string>
-					<string>db979faa0d5e283ab5d1f45dd94587c1</string>
+					<string>BA2A4D27866123CFD1467703</string>
+					<string>DB979FAA0D5E283AB5D1F45D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1351,7 +1189,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>ba2a4d27866123cfd1467703dcc4e63a</key>
+			<key>BA2A4D27866123CFD1467703</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -1366,12 +1204,70 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>6474CBF019BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>AVFoundation.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/AVFoundation.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF119BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>CoreMedia.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/CoreMedia.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF219BCE00B003C94E2</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>QuartzCore.framework</string>
+				<key>path</key>
+				<string>System/Library/Frameworks/QuartzCore.framework</string>
+				<key>sourceTree</key>
+				<string>SDKROOT</string>
+			</dict>
+			<key>6474CBF619BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF019BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6474CBF719BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF119BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6474CBF819BCE019003C94E2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6474CBF219BCE00B003C94E2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
-				<array>
-					<string>1f4fb5c423662b96adfdcc0badec1cb0</string>
-				</array>
+				<array />
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
@@ -1396,18 +1292,23 @@
 			<dict>
 				<key>children</key>
 				<array>
+					<string>6474CBF019BCE00B003C94E2</string>
+					<string>6474CBF119BCE00B003C94E2</string>
+					<string>6474CBF219BCE00B003C94E2</string>
+					<string>E7F985F515E0DE99003869B5</string>
 					<string>E4C2424410CC5A17004149E2</string>
 					<string>E4C2424510CC5A17004149E2</string>
 					<string>E4C2424610CC5A17004149E2</string>
 					<string>E45BE9710E8CC7DD009D7055</string>
 					<string>E45BE9720E8CC7DD009D7055</string>
 					<string>E45BE9730E8CC7DD009D7055</string>
-					<string>E45BE9740E8CC7DD009D7055</string>
 					<string>E45BE9750E8CC7DD009D7055</string>
 					<string>E45BE9760E8CC7DD009D7055</string>
 					<string>E45BE9770E8CC7DD009D7055</string>
 					<string>E45BE9790E8CC7DD009D7055</string>
 					<string>E45BE97A0E8CC7DD009D7055</string>
+					<string>E7E077E415D3B63C0020DFD4</string>
+					<string>E7E077E715D3B6510020DFD4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1482,7 +1383,7 @@
 				<key>isa</key>
 				<string>PBXReferenceProxy</string>
 				<key>path</key>
-				<string>openFrameworks.a</string>
+				<string>openFrameworksDebug.a</string>
 				<key>remoteRef</key>
 				<string>E4328147138ABC890047C5CB</string>
 				<key>sourceTree</key>
@@ -1545,19 +1446,6 @@
 				<string>AudioToolbox.framework</string>
 				<key>path</key>
 				<string>/System/Library/Frameworks/AudioToolbox.framework</string>
-				<key>sourceTree</key>
-				<string>&lt;absolute&gt;</string>
-			</dict>
-			<key>E45BE9740E8CC7DD009D7055</key>
-			<dict>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>wrapper.framework</string>
-				<key>name</key>
-				<string>Carbon.framework</string>
-				<key>path</key>
-				<string>/System/Library/Frameworks/Carbon.framework</string>
 				<key>sourceTree</key>
 				<string>&lt;absolute&gt;</string>
 			</dict>
@@ -1647,13 +1535,6 @@
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>E45BE97E0E8CC7DD009D7055</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E45BE9740E8CC7DD009D7055</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
 			<key>E45BE97F0E8CC7DD009D7055</key>
 			<dict>
 				<key>fileRef</key>
@@ -1708,10 +1589,15 @@
 			</dict>
 			<key>E4B69B4C0A3A1720003C02F2</key>
 			<dict>
+				<key>attributes</key>
+				<dict>
+					<key>LastUpgradeCheck</key>
+					<string>0460</string>
+				</dict>
 				<key>buildConfigurationList</key>
 				<string>E4B69B4D0A3A1720003C02F2</string>
 				<key>compatibilityVersion</key>
-				<string>Xcode 2.4</string>
+				<string>Xcode 3.2</string>
 				<key>developmentRegion</key>
 				<string>English</string>
 				<key>hasScannedForEncodings</key>
@@ -1770,11 +1656,11 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>../../../addons/libs</string>
+						<string>../../../addons/src</string>
 						<string>src</string>
 						<string>src/ofxControlPanel</string>
 						<string>src/ofxControlPanel/src</string>
-						<string>../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -1797,7 +1683,7 @@
 					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
 					<string>NO</string>
 					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>NO</string>
+					<string>YES</string>
 					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
 					<string>NO</string>
 					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
@@ -1808,12 +1694,16 @@
 					<string>NO</string>
 					<key>GCC_WARN_UNUSED_VARIABLE</key>
 					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.6</string>
 					<key>OTHER_CPLUSPLUSFLAGS</key>
 					<array>
 						<string>-D__MACOSX_CORE__</string>
 						<string>-lpthread</string>
 						<string>-mtune=native</string>
 					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
 				</dict>
 				<key>isa</key>
 				<string>XCBuildConfiguration</string>
@@ -1829,11 +1719,11 @@
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>../../../addons/libs</string>
+						<string>../../../addons/src</string>
 						<string>src</string>
 						<string>src/ofxControlPanel</string>
 						<string>src/ofxControlPanel/src</string>
-						<string>../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ARCHS</key>
 					<string>$(NATIVE_ARCH)</string>
@@ -1858,7 +1748,7 @@
 					<key>GCC_UNROLL_LOOPS</key>
 					<string>YES</string>
 					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>NO</string>
+					<string>YES</string>
 					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
 					<string>NO</string>
 					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
@@ -1869,12 +1759,16 @@
 					<string>NO</string>
 					<key>GCC_WARN_UNUSED_VARIABLE</key>
 					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.6</string>
 					<key>OTHER_CPLUSPLUSFLAGS</key>
 					<array>
 						<string>-D__MACOSX_CORE__</string>
 						<string>-lpthread</string>
 						<string>-mtune=native</string>
 					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
 				</dict>
 				<key>isa</key>
 				<string>XCBuildConfiguration</string>
@@ -1889,38 +1783,34 @@
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>305f6ca0d586511d1a4b74aac51e841d</string>
-					<string>a42f28a57e1988b667f2c5c760aceefb</string>
-					<string>32228dcf2887e54f5518a192f902841c</string>
-					<string>d5a6d19315822ce081324047e45afab1</string>
-					<string>77cdac4e72641a926f66cf2352a4d28b</string>
-					<string>c58dd68752d2f96fdbb0d32727c0af40</string>
-					<string>8f3de660bb3f8da1013bebe9f60a00f8</string>
-					<string>3fc457e7dbc6f803e836f84ce3732012</string>
-					<string>f30303a05c23473489e16e88a327f0bc</string>
-					<string>db63be57e70db9197b5d4b2fe2542ec1</string>
-					<string>b4679340c8d9897c694ba5a56112b287</string>
-					<string>b1d83fd9410a8c4b53e41fa04fb1912a</string>
-					<string>d8c42ab95a0fa3c44fc6b4765087223f</string>
-					<string>adcad89d19af644de4b980dd5ae66b07</string>
-					<string>880714df8e5b06ba88b98c49074027af</string>
-					<string>c0c58edf9bb79c5deeb2a42a45b05fff</string>
-					<string>b791d0cb11613ccb610a683da019435b</string>
-					<string>855211085fa3a30a3b246698853e8bed</string>
-					<string>dcb9250d6b51cd3062ab9c5ad2efab11</string>
-					<string>48c4cc14f41c5011881cf4c9f383fa2f</string>
-					<string>de1502c2240bba214d4f95d330292739</string>
-					<string>fd0fae2d501eadf18a167574f33808e5</string>
-					<string>9184b44a8bb766700e50e1f58425b448</string>
-					<string>4db1e0e9777d54af9a5c730c164d248d</string>
-					<string>ecf32d4c2482dcecec323401d8a07249</string>
-					<string>af9eed97e5787d318b5c5fc91f20fdee</string>
-					<string>2b21574b1d08f16229459f08df768cb6</string>
-					<string>72c9c04e23596576dc20d815f239e68d</string>
-					<string>63b57ac5bf4ef088491e0317dbb2ecaa</string>
-					<string>933a2227713c720ceff80fd967d0a8ee</string>
-					<string>9d44dc88ef9e7991b4a09951e2e4769f</string>
-					<string>5a4349e9754d6fa14c0f2a3a1abc30b6</string>
+					<string>305F6CA0D586511D1A4B74AA</string>
+					<string>A42F28A57E1988B667F2C5C7</string>
+					<string>32228DCF2887E54F5518A192</string>
+					<string>D5A6D19315822CE081324047</string>
+					<string>77CDAC4E72641A926F66CF23</string>
+					<string>C58DD68752D2F96FDBB0D327</string>
+					<string>8F3DE660BB3F8DA1013BEBE9</string>
+					<string>3FC457E7DBC6F803E836F84C</string>
+					<string>F30303A05C23473489E16E88</string>
+					<string>DB63BE57E70DB9197B5D4B2F</string>
+					<string>B4679340C8D9897C694BA5A5</string>
+					<string>B1D83FD9410A8C4B53E41FA0</string>
+					<string>D8C42AB95A0FA3C44FC6B476</string>
+					<string>ADCAD89D19AF644DE4B980DD</string>
+					<string>880714DF8E5B06BA88B98C49</string>
+					<string>C0C58EDF9BB79C5DEEB2A42A</string>
+					<string>B791D0CB11613CCB610A683D</string>
+					<string>855211085FA3A30A3B246698</string>
+					<string>DCB9250D6B51CD3062AB9C5A</string>
+					<string>48C4CC14F41C5011881CF4C9</string>
+					<string>DE1502C2240BBA214D4F95D3</string>
+					<string>FD0FAE2D501EADF18A167574</string>
+					<string>9184B44A8BB766700E50E1F5</string>
+					<string>4DB1E0E9777D54AF9A5C730C</string>
+					<string>ECF32D4C2482DCECEC323401</string>
+					<string>AF9EED97E5787D318B5C5FC9</string>
+					<string>2B21574B1D08F16229459F08</string>
+					<string>72C9C04E23596576DC20D815</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -1933,12 +1823,16 @@
 				<string>2147483647</string>
 				<key>files</key>
 				<array>
+					<string>6474CBF619BCE019003C94E2</string>
+					<string>6474CBF719BCE019003C94E2</string>
+					<string>6474CBF819BCE019003C94E2</string>
+					<string>E7F985F815E0DEA3003869B5</string>
+					<string>E7E077E815D3B6510020DFD4</string>
 					<string>E4EB6799138ADC1D00A09F29</string>
 					<string>E4328149138ABC9F0047C5CB</string>
 					<string>E45BE97B0E8CC7DD009D7055</string>
 					<string>E45BE97C0E8CC7DD009D7055</string>
 					<string>E45BE97D0E8CC7DD009D7055</string>
-					<string>E45BE97E0E8CC7DD009D7055</string>
 					<string>E45BE97F0E8CC7DD009D7055</string>
 					<string>E45BE9800E8CC7DD009D7055</string>
 					<string>E45BE9810E8CC7DD009D7055</string>
@@ -1947,6 +1841,7 @@
 					<string>E4C2424710CC5A17004149E2</string>
 					<string>E4C2424810CC5A17004149E2</string>
 					<string>E4C2424910CC5A17004149E2</string>
+					<string>E7E077E515D3B63C0020DFD4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXFrameworksBuildPhase</string>
@@ -2012,6 +1907,8 @@
 			<dict>
 				<key>buildSettings</key>
 				<dict>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
 					<string>NO</string>
 					<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -2023,87 +1920,20 @@
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
 					<key>GCC_DYNAMIC_NO_PIC</key>
 					<string>NO</string>
-					<key>GCC_ENABLE_FIX_AND_CONTINUE</key>
-					<string>YES</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
 					<key>GCC_MODEL_TUNING</key>
 					<string>NONE</string>
-					<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-					<string>YES</string>
-					<key>GCC_PREFIX_HEADER</key>
-					<string>$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_DEBUG)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
 					<key>INFOPLIST_FILE</key>
 					<string>openFrameworks-Info.plist</string>
 					<key>INSTALL_PATH</key>
 					<string>$(HOME)/Applications</string>
 					<key>LIBRARY_SEARCH_PATHS</key>
-					<array>
-						<string>$(inherited)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)</string>
-					</array>
-					<key>PREBINDING</key>
-					<string>NO</string>
+					<string>$(inherited)</string>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)Debug</string>
 					<key>WRAPPER_EXTENSION</key>
@@ -2118,6 +1948,8 @@
 			<dict>
 				<key>buildSettings</key>
 				<dict>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
 					<string>YES</string>
 					<key>FRAMEWORK_SEARCH_PATHS</key>
@@ -2127,87 +1959,20 @@
 					</array>
 					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
 					<string>"$(SRCROOT)/../../../libs/glut/lib/osx"</string>
-					<key>GCC_ENABLE_FIX_AND_CONTINUE</key>
-					<string>NO</string>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
 					<key>GCC_MODEL_TUNING</key>
 					<string>NONE</string>
-					<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-					<string>YES</string>
-					<key>GCC_PREFIX_HEADER</key>
-					<string>$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
 					<key>INFOPLIST_FILE</key>
 					<string>openFrameworks-Info.plist</string>
 					<key>INSTALL_PATH</key>
 					<string>$(HOME)/Applications</string>
 					<key>LIBRARY_SEARCH_PATHS</key>
-					<array>
-						<string>$(inherited)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_1)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)</string>
-						<string>$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)</string>
-					</array>
-					<key>PREBINDING</key>
-					<string>NO</string>
+					<string>$(inherited)</string>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
 					<key>WRAPPER_EXTENSION</key>
@@ -2225,9 +1990,9 @@
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
-					<string>70b88c4aafdbd04fda1119bbe104034d</string>
-					<string>09150bf591fddf0eca6d1d302b43ae78</string>
-					<string>c4290e0aa046ab2952a4f50603f7233e</string>
+					<string>70B88C4AAFDBD04FDA1119BB</string>
+					<string>09150BF591FDDF0ECA6D1D30</string>
+					<string>C4290E0AA046AB2952A4F506</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2260,9 +2025,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>testApp.cpp</string>
+				<string>ofApp.cpp</string>
 				<key>path</key>
-				<string>src/testApp.cpp</string>
+				<string>src/ofApp.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2275,9 +2040,9 @@
 				<key>lastKnownFileType</key>
 				<string>sourcecode.c.h</string>
 				<key>name</key>
-				<string>testApp.h</string>
+				<string>ofApp.h</string>
 				<key>path</key>
-				<string>src/testApp.h</string>
+				<string>src/ofApp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2325,7 +2090,10 @@
 				<key>shellPath</key>
 				<string>/bin/sh</string>
 				<key>shellScript</key>
-				<string>cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";</string>
+				<string>cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+cp -f "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+</string>
 			</dict>
 			<key>E4C2424410CC5A17004149E2</key>
 			<dict>
@@ -2474,6 +2242,66 @@
 				<string>openFrameworks</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E7E077E415D3B63C0020DFD4</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>CoreVideo.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/CoreVideo.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7E077E515D3B63C0020DFD4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7E077E415D3B63C0020DFD4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E7E077E715D3B6510020DFD4</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>QTKit.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/QTKit.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7E077E815D3B6510020DFD4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7E077E715D3B6510020DFD4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E7F985F515E0DE99003869B5</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>name</key>
+				<string>Accelerate.framework</string>
+				<key>path</key>
+				<string>/System/Library/Frameworks/Accelerate.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;absolute&gt;</string>
+			</dict>
+			<key>E7F985F815E0DEA3003869B5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E7F985F515E0DE99003869B5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
 			</dict>
 		</dict>
 		<key>rootObject</key>

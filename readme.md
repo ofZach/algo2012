@@ -12,4 +12,4 @@ you should see:
 
 etc. 
 
-please note: while the code for this class is essentially open source (http://opensource.org/licenses/MIT) and invite you to *go to town*, I would greatly appreciate it if people would ask me first before teaching a course with this code. 
+*please note: while the code for this class is essentially open source (http://opensource.org/licenses/MIT) and invite you to go to town and use it in any manner of ways, I would greatly appreciate it if people would ask me first before teaching a course with this code and =cough= avoid re-posting it on repos without attribution.* 

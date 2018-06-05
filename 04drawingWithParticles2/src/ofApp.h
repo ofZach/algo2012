@@ -1,12 +1,11 @@
-#ifndef _TEST_APP
-#define _TEST_APP
+
 
 
 #include "ofMain.h"
 
 #include "particle.h"
 
-class ofApp : public ofSimpleApp{
+class ofApp : public ofBaseApp{
 	
 	public:
 		
@@ -36,6 +35,4 @@ class ofApp : public ofSimpleApp{
 	
 	
 };
-
-#endif
 	
